@@ -2,28 +2,52 @@
 <sounds>
   <actions>
     <action>
-      <name>Select</name>
-      <!-- <file>Click.wav</file> -->
-	  <file>short-sweep-02-brvhrtz-224547.wav</file><!-- https://pixabay.com/service/license-summary/ -->
+      <name>left</name>
+      <file>cursor.wav</file>
     </action>
     <action>
-      <name>ParentDir</name>
-      <file>Back.wav</file>
+      <name>right</name>
+      <file>cursor.wav</file>
     </action>
     <action>
-      <name>PreviousMenu</name>
-      <file>Back.wav</file>
+      <name>up</name>
+      <file>cursor.wav</file>
     </action>
     <action>
-      <name>Screenshot</name>
-      <file>Shutter.wav</file>
+      <name>down</name>
+      <file>cursor.wav</file>
+    </action>
+    <action>
+      <name>select</name>
+      <file>short-sweep-02-brvhrtz-224547.wav</file>
+    </action>
+    <action>
+      <name>parentdir</name>
+      <file>back.wav</file>
+    </action>
+    <action>
+      <name>previousmenu</name>
+      <file>back.wav</file>
+    </action>
+    <action>
+      <name>screenshot</name>
+      <file>shutter.wav</file>
+    </action>
+    <action>
+      <name>error</name>
+      <file>notify.wav</file>
     </action>
   </actions>
+
   <windows>
     <window>
-      <name>InfoDialog</name>
-      <!-- <activate>Notify.wav</activate> -->
-	  <activate>simple-clean-logo-13775.wav</activate><!-- https://pixabay.com/service/license-summary/ -->
+      <name>notification</name>
+      <activate>simple-clean-logo-13775.wav</activate>
+      <deactivate>simple-clean-logo-13775.wav</deactivate>
+    </window>
+    <window>
+      <name>startup</name>
+      <activate></activate>
     </window>
   </windows>
 </sounds>

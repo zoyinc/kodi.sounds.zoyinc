@@ -1,5 +1,5 @@
 <?xml version="2.0" encoding="UTF-8"?>
-<addon id="kodi.sounds.zoyinc" version="2.0.0" name="Zoyinc Sounds" provider-name="Zoyinc">
+<addon id="kodi.sounds.zoyinc" version="2.9" name="Zoyinc Sounds" provider-name="Zoyinc">
   <requires>
     <import addon="kodi.resource" version="1.0.0"/>
   </requires>

@@ -3,7 +3,8 @@
   <actions>
     <action>
       <name>Select</name>
-      <file>Click.wav</file>
+      <!-- <file>Click.wav</file> -->
+	  <file>short-sweep-02-brvhrtz-224547.wav</file><!-- https://pixabay.com/service/license-summary/ -->
     </action>
     <action>
       <name>ParentDir</name>
@@ -21,7 +22,8 @@
   <windows>
     <window>
       <name>InfoDialog</name>
-      <activate>Notify.wav</activate>
+      <!-- <activate>Notify.wav</activate> -->
+	  <activate>simple-clean-logo-13775.wav</activate><!-- https://pixabay.com/service/license-summary/ -->
     </window>
   </windows>
 </sounds>

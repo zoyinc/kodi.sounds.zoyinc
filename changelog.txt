@@ -1,2 +1,5 @@
+25/1/25 Created v2 for Zoyinc clone of Amber
+Many thanks to various Amber developers, couldn't have done it without you
+Zoyinc
 Ver 1.0.0
 Initial release for Isengard repository
